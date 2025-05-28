@@ -79,7 +79,7 @@ def porcentaje_aprobados(programacionI):
 
         # saco la cuenta del porcentaje y lo imprimo en pantalla.
         porcentaje = (aprobados / total_examenes) * 100
-        print(f"Alumno n° {i+1}: {aprobados} exámenes aprobados de {total_examenes}, ({porcentaje:.2f}%)")
+        print(f"Alumno n° {i+1}: {aprobados} exámen/es aprobado/s de {total_examenes}, ({porcentaje:.2f}%)")
 
 # Bloque principal
 def main():
@@ -97,7 +97,7 @@ def main():
         if notas:
 
             # muestro en pantalla los datos obtenidos.
-            print("\Notas para la clase de Programacion I:")
+            print("Notas para la clase de Programacion I:")
 
             # itero la lista enumerada de notas e imprimo en pantalla el dato del alumno, sus notas
             for alumno, fila in enumerate(notas):
@@ -111,6 +111,6 @@ def main():
         # catch en caso de producirse un error en el valor del input.
         print("Debe ingresar números enteros válidos para los alumnos y exámenes.")
 
-# Ejecuta el programa
+# Ejecuto el programa - python .\Parcial\AcostaLucas_Parcial.py
 if __name__ == "__main__":
     main()
